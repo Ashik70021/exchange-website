@@ -5,7 +5,7 @@ const Login = () => {
         <div className="mt-16">
             <div className="mx-auto max-w-md p-4 rounded-md shadow sm:p-8 bg-gray-50 text-gray-800">
                 <h2 className="mb-3 text-3xl font-semibold text-center">Login to your account</h2>
-                <p className="text-sm text-center text-gray-600">Dont have account?
+                <p className="text-xl text-center text-gray-600">Dont have account?
                     <NavLink to="/register"><a rel="noopener noreferrer" className="focus:underline hover:underline text-[#FF4240]">Sign up here</a></NavLink>
                 </p>
                 <div className="my-6 space-y-4">

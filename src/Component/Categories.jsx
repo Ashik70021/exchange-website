@@ -1,18 +1,19 @@
-import image1 from '../assets/image/Rectangle 4.png'
-import image2 from '../assets/image/Rectangle 26.png'
-import image3 from '../assets/image/Rectangle 27.png'
-import image4 from '../assets/image/Rectangle 28.png'
-import image5 from '../assets/image/Rectangle 29.png'
-import image6 from '../assets/image/Rectangle 30.png'
-import image7 from '../assets/image/Rectangle 31.png'
-import image8 from '../assets/image/Rectangle 7.png'
+import image1 from '../../public/image/Rectangle 4.png'
+import image2 from '../../public/image/Rectangle 26.png'
+import image3 from '../../public/image/Rectangle 27.png'
+import image4 from '../../public/image/Rectangle 28.png'
+import image5 from '../../public/image/Rectangle 29.png'
+import image6 from '../../public/image/Rectangle 30.png'
+import image7 from '../../public/image/Rectangle 31.png'
+import image8 from '../../public/image/Rectangle 7.png'
+import { Link } from 'react-router-dom'
 
 const Categories = () => {
     return (
         <div>
             <div className='mt-16 container mx-auto flex justify-between'>
                 <div className='ml-9 md:ml-20'>
-                    <h1 className='text-2xl md:text-4xl font-bold text-[#FF4240]'>All categories</h1>
+                    <h1 className='text-2xl md:text-4xl font-bold text-[#FF4240] underline underline-offset-8'>All categories</h1>
                 </div>
                 <div className='mr-9 md:mr-20 text-lg md:text-xl'><p>View All</p></div>
             </div>
@@ -99,9 +100,9 @@ const Categories = () => {
                         <div className="card-body">
                             <h2 className="card-title text-3xl font-bold text-[#131318]">Jacket for men</h2>
                             <p className="text-lg text-[#131318] opacity-60 pt-3 ">Dolor sit amet consectetur. Ut urnadiam <br /> quis sagittis. </p>
-                            <p className="text-xl font-bold text-[#FF4240] ">Price - $22.00</p>
+                            <p className="text-xl font-bold text-[#FF4240] ">Price - $15.00</p>
                             <div className="card-actions">
-                                <button className="btn bg-[#FF4240] text-lg text-white">Make Deal</button>
+                                <Link to="/itemdetails"><button className="btn bg-[#FF4240] text-lg text-white">Make Deal</button></Link>
                             </div>
                         </div>
                     </div>
@@ -119,6 +120,7 @@ const Categories = () => {
                     </div>
                 </div>
             </div>
+            <hr className="border-dashed mt-16"></hr>
         </div>
     );
 };

@@ -26,7 +26,7 @@ const Register = () => {
                     <button type="button" className="w-full px-8 py-3 font-semibold rounded-md bg-[#FF4240] text-gray-50">Sign up</button>
 
                 </form>
-                <p className="text-xs text-center sm:px-6 text-[]">Already have  account?
+                <p className="text-xl text-center sm:px-6 text-[]">Already have  account?
                     <NavLink to="/login"><a rel="noopener noreferrer" href="#" className="underline text-[#FF4240]"> Login</a></NavLink>
                 </p>
             </div>

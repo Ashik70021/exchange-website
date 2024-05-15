@@ -1,4 +1,4 @@
-import image from '../../public/image/slider11 1.pngs'
+import image from '../assets/image/slider111.png'
 
 const Banner = () => {
     return (

@@ -1,7 +1,8 @@
+import TopCategories from "./TopCategories";
 import Banner from "./Banner";
 import Categories from "./Categories";
 import Tagline from "./Tagline";
-import TopCategories from "./TopCategories";
+
 
 const Home = () => {
     return (

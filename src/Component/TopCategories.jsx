@@ -1,6 +1,6 @@
-import image1 from '../../public/images/image 4.png'
-import image2 from '../../public/images/image 6.png'
-import image3 from '../../public/images/image 7.png'
+import image1 from '../assets/images/image4.png'
+import image2 from '../assets/images/image6.png'
+import image3 from '../assets/images/image7.png'
 
 const TopCategories = () => {
       return (

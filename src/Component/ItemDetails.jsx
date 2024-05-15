@@ -1,4 +1,4 @@
-import image from '../../public/image/24488233.jpg'
+import image from '../assets/image/24488233.jpg'
 const ItemDetails = () => {
     return (
         <div className='mt-24 container mx-auto  grid grid-cols-1 md:grid-cols-2'>

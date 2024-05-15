@@ -5,18 +5,22 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+
 import Root from './Component/Root';
 import Home from './Component/Home';
-import Banner from './Component/Banner';
 import Login from './Component/Login';
 import Register from './Component/Register';
 import ItemDetails from './Component/ItemDetails';
+import Mycart from './Component/Mycart';
+import Error from './Component/Error';
+import Shop from './Component/Shop';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <Error></Error>,
     children: [
       {
         path: "/",
@@ -33,6 +37,14 @@ const router = createBrowserRouter([
       {
         path: "/itemdetails",
         element: <ItemDetails></ItemDetails>,
+      },
+      {
+        path: "/mycart",
+        element: <Mycart></Mycart>,
+      },
+      {
+        path: "/shop",
+        element: <Shop></Shop>
       },
     ]
   },

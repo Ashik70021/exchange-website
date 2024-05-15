@@ -1,11 +1,11 @@
-import image1 from '../../public/image/Rectangle 4.png'
-import image2 from '../../public/image/Rectangle 26.png'
-import image3 from '../../public/image/Rectangle 27.png'
-import image4 from '../../public/image/Rectangle 28.png'
-import image5 from '../../public/image/Rectangle 29.png'
-import image6 from '../../public/image/Rectangle 30.png'
-import image7 from '../../public/image/Rectangle 31.png'
-import image8 from '../../public/image/Rectangle 7.png'
+import image1 from '../assets/image/Rectangle4.png'
+import image2 from '../assets/image/Rectangle26.png'
+import image3 from '../assets/image/Rectangle27.png'
+import image4 from '../assets/image/Rectangle28.png'
+import image5 from '../assets/image/Rectangle29.png'
+import image6 from '../assets/image/Rectangle30.png'
+import image7 from '../assets/image/Rectangle31.png'
+import image8 from '../assets/image/Rectangle7.png'
 import { Link } from 'react-router-dom'
 
 const Categories = () => {
@@ -26,8 +26,9 @@ const Categories = () => {
                             <h2 className="card-title text-3xl font-bold text-[#131318]">Jacket for men</h2>
                             <p className="text-lg text-[#131318] opacity-60 pt-3 ">Dolor sit amet consectetur. Ut urnadiam <br /> quis sagittis. </p>
                             <p className="text-xl font-bold text-[#FF4240] ">Price - $22.00</p>
-                            <div className="card-actions">
-                                <button className="btn bg-[#FF4240] text-lg text-white">Make Deal</button>
+                            <div className="card-actions gap-4">
+                                <Link to="/itemdetails"><button className="btn bg-[#FF4240] text-lg text-white">Make Deal</button></Link>
+                                <Link to="/mycart"> <button className="btn bg-[#FF4240] text-lg text-white">Add to cart</button></Link>
                             </div>
                         </div>
                     </div>
@@ -38,8 +39,9 @@ const Categories = () => {
                             <h2 className="card-title text-3xl font-bold text-[#131318]">Jacket for men</h2>
                             <p className="text-lg text-[#131318] opacity-60 pt-3 ">Dolor sit amet consectetur. Ut urnadiam <br /> quis sagittis. </p>
                             <p className="text-xl font-bold text-[#FF4240] ">Price - $22.00</p>
-                            <div className="card-actions">
-                                <button className="btn bg-[#FF4240] text-lg text-white">Make Deal</button>
+                            <div className="card-actions gap-4">
+                                <Link to="/itemdetails"><button className="btn bg-[#FF4240] text-lg text-white">Make Deal</button></Link>
+                                <Link to="/mycart"> <button className="btn bg-[#FF4240] text-lg text-white">Add to cart</button></Link>
                             </div>
                         </div>
                     </div>
@@ -50,8 +52,9 @@ const Categories = () => {
                             <h2 className="card-title text-3xl font-bold text-[#131318]">Jacket for men</h2>
                             <p className="text-lg text-[#131318] opacity-60 pt-3 ">Dolor sit amet consectetur. Ut urnadiam <br /> quis sagittis. </p>
                             <p className="text-xl font-bold text-[#FF4240] ">Price - $22.00</p>
-                            <div className="card-actions">
-                                <button className="btn bg-[#FF4240] text-lg text-white">Make Deal</button>
+                            <div className="card-actions gap-4">
+                                <Link to="/itemdetails"><button className="btn bg-[#FF4240] text-lg text-white">Make Deal</button></Link>
+                                <Link to="/mycart"> <button className="btn bg-[#FF4240] text-lg text-white">Add to cart</button></Link>
                             </div>
                         </div>
                     </div>
@@ -62,8 +65,9 @@ const Categories = () => {
                             <h2 className="card-title text-3xl font-bold text-[#131318]">Jacket for men</h2>
                             <p className="text-lg text-[#131318] opacity-60 pt-3 ">Dolor sit amet consectetur. Ut urnadiam <br /> quis sagittis. </p>
                             <p className="text-xl font-bold text-[#FF4240] ">Price - $22.00</p>
-                            <div className="card-actions">
-                                <button className="btn bg-[#FF4240] text-lg text-white">Make Deal</button>
+                            <div className="card-actions gap-4">
+                                <Link to="/itemdetails"><button className="btn bg-[#FF4240] text-lg text-white">Make Deal</button></Link>
+                                <Link to="/mycart"> <button className="btn bg-[#FF4240] text-lg text-white">Add to cart</button></Link>
                             </div>
                         </div>
                     </div>
@@ -77,8 +81,9 @@ const Categories = () => {
                             <h2 className="card-title text-3xl font-bold text-[#131318]">Jacket for men</h2>
                             <p className="text-lg text-[#131318] opacity-60 pt-3 ">Dolor sit amet consectetur. Ut urnadiam <br /> quis sagittis. </p>
                             <p className="text-xl font-bold text-[#FF4240] ">Price - $22.00</p>
-                            <div className="card-actions">
-                                <button className="btn bg-[#FF4240] text-lg text-white">Make Deal</button>
+                            <div className="card-actions gap-4">
+                                <Link to="/itemdetails"><button className="btn bg-[#FF4240] text-lg text-white">Make Deal</button></Link>
+                                <Link to="/mycart"> <button className="btn bg-[#FF4240] text-lg text-white">Add to cart</button></Link>
                             </div>
                         </div>
                     </div>
@@ -89,8 +94,9 @@ const Categories = () => {
                             <h2 className="card-title text-3xl font-bold text-[#131318]">Jacket for men</h2>
                             <p className="text-lg text-[#131318] opacity-60 pt-3 ">Dolor sit amet consectetur. Ut urnadiam <br /> quis sagittis. </p>
                             <p className="text-xl font-bold text-[#FF4240] ">Price - $22.00</p>
-                            <div className="card-actions">
-                                <button className="btn bg-[#FF4240] text-lg text-white">Make Deal</button>
+                            <div className="card-actions gap-4">
+                                <Link to="/itemdetails"><button className="btn bg-[#FF4240] text-lg text-white">Make Deal</button></Link>
+                                <Link to="/mycart"> <button className="btn bg-[#FF4240] text-lg text-white">Add to cart</button></Link>
                             </div>
                         </div>
                     </div>
@@ -101,8 +107,9 @@ const Categories = () => {
                             <h2 className="card-title text-3xl font-bold text-[#131318]">Jacket for men</h2>
                             <p className="text-lg text-[#131318] opacity-60 pt-3 ">Dolor sit amet consectetur. Ut urnadiam <br /> quis sagittis. </p>
                             <p className="text-xl font-bold text-[#FF4240] ">Price - $15.00</p>
-                            <div className="card-actions">
+                            <div className="card-actions gap-4">
                                 <Link to="/itemdetails"><button className="btn bg-[#FF4240] text-lg text-white">Make Deal</button></Link>
+                                <Link to="/mycart"> <button className="btn bg-[#FF4240] text-lg text-white">Add to cart</button></Link>
                             </div>
                         </div>
                     </div>
@@ -113,8 +120,9 @@ const Categories = () => {
                             <h2 className="card-title text-3xl font-bold text-[#131318]">Jacket for men</h2>
                             <p className="text-lg text-[#131318] opacity-60 pt-3 ">Dolor sit amet consectetur. Ut urnadiam <br /> quis sagittis. </p>
                             <p className="text-xl font-bold text-[#FF4240] ">Price - $22.00</p>
-                            <div className="card-actions">
-                                <button className="btn bg-[#FF4240] text-lg text-white">Make Deal</button>
+                            <div className="card-actions gap-4">
+                                <Link to="/itemdetails"><button className="btn bg-[#FF4240] text-lg text-white">Make Deal</button></Link>
+                                <Link to="/mycart"> <button className="btn bg-[#FF4240] text-lg text-white">Add to cart</button></Link>
                             </div>
                         </div>
                     </div>

@@ -17,7 +17,7 @@ const Categories = () => {
                 </div>
                 <div className='mr-9 md:mr-20 text-lg md:text-xl'><p>View All</p></div>
             </div>
-            <div className="mt-4 lg:flex justify-around">
+            <div className="mt-4 grid grid-cols-1 md:grid-cols-2">
                 <div>
                     {/* card */}
                     <div className="card lg:card-side bg-base-100 border border-[#FF4240] m-6 md:m-8">
